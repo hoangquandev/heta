@@ -1,0 +1,6 @@
+.news-title .uppercase{
+    text-transform: uppercase;
+}
+.news-title h1.uppercase span.darktext{
+    color: #111;
+}

@@ -1,0 +1,125 @@
+.banner{
+    position: relative;
+    margin-top: 120px;
+    /* justify-content: center; */
+    /* height: 650px; */
+    z-index: 1;
+}
+/* .container{
+    position: relative;
+    width: 90%;
+} */
+
+.txtBanner{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+}
+.titleText{
+    margin-bottom: 3rem;
+    
+}
+.titleText h1{
+    font-size: 37px;
+    line-height: 46px;
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+.titleText h1:first-child{
+    color: #f07641;
+    margin-bottom: 0.25rem
+}
+
+.bodyText h4{
+    font-size: 24px;
+    line-height: 29px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    color: #5f6e9d;
+    width: 50%;
+}
+
+.banner::before{
+    content: '';
+    position: absolute;
+    background-image: url(../../assets/image/bg-banner.png);
+    background-size: 890px;
+    width: 890px;
+    height: 100%;
+    top: 0;
+    right: 0;
+    background-repeat: no-repeat;
+    background-position-x: right;
+    z-index: -1;
+}
+
+.borderBanner{
+    padding-top: 70px;
+    margin-bottom: 0;
+    text-align: center;
+}
+.borderBanner img {
+    padding-top: 160px;
+    max-width: 100%;
+    height: auto;
+}
+.btn-banner{
+    text-align: right;
+    margin-right: 1.5rem;
+    margin-top: 3rem;
+    line-height: 1.5;
+    /* z-index: 99; */
+}
+.banner a{
+    background-image: linear-gradient(#f0a645, #eb813b);
+    border-radius: 30px;
+    letter-spacing: 4px;
+    font-size: 12px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+    padding: 13px 35px;
+    margin-right: 3rem;
+    font-weight: 500;
+    z-index: 99;
+}
+.btn-banner a:hover{
+    opacity: 0.8;
+}
+
+@media (max-width: 1200px) {
+    
+}
+@media (max-width: 992px) {
+    .banner{
+        padding-bottom: 3rem;
+        margin-top: 60px;
+        display: flex;
+        flex-direction: column;
+    }
+    .txtBanner,.borderBanner,.btn-banner{
+        width: 100%;
+        text-align: center;
+        justify-content: center;
+        /* z-index: 1000; */
+    }
+    .bodyText h4{
+        width: 100%;
+    }
+    .borderBanner{
+        padding-top: 0;
+        margin-bottom: 0;
+        text-align: center;
+    }
+    .borderBanner img{
+        padding-top: 30px;
+        margin-bottom: 40px;
+    }
+    .btn-banner{
+        margin-top: 0;
+    }
+}
+
+@media (max-width: 768px) {
+   
+}

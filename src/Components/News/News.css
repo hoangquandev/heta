@@ -1,0 +1,33 @@
+.news-title{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    padding-bottom: 1rem;
+}
+
+.news-title h1{
+    text-align: center;
+    color: #f07f51;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 48px;
+    letter-spacing: 2px;
+}
+
+.news-box{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.news-item{
+    flex: 0 0 25%;
+    max-width: 25%;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 3rem;
+}
+
+.news-item img{
+    width: 100%;
+    border: 1px solid #eae9ed;
+    border-radius: 5px;
+}
